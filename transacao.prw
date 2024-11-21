@@ -15,7 +15,20 @@ User Function TRANSACAO()
   RpcSetType(3)
   PREPARE ENVIRONMENT EMPRESA "99" FILIAL "01" MODULO "FAT"
 
- Begin Transaction
+  Begin Transaction
+    Reclock("SZ1", .T.)
+    Z1_FILIAL  := xFilial()
+    Z1_CLIENT  := cCliente
+    Z1_LOJA    := cLoja
+    Z1_PRODUT  := cProdut
+    Z1_UM      := "PC"
+    Z1_UMCLI   := "CX"
+    Z1_TIPO    := "M"
+    Z1_FATOR   := 1
+    MsUnlock()
+  End Transaction
+
+  BeginTran()
   Reclock("SZ1", .T.)
   Z1_FILIAL  := xFilial()
   Z1_CLIENT  := cCliente
@@ -27,23 +40,9 @@ User Function TRANSACAO()
   Z1_FATOR   := 1
   MsUnlock()
 
-  End Transaction
-   
-  BeginTran()
-    Reclock("SZ1", .T.)
-  Z1_FILIAL  := xFilial()
-  Z1_CLIENT  := cCliente
-  Z1_LOJA    := cLoja
-  Z1_PRODUT  := cProdut
-  Z1_UM      := "PC"
-  Z1_UMCLI   := "CX"
-  Z1_TIPO    := "M"
-  Z1_FATOR   := 1
-  MsUnlock()
-  
   DisarmTransaction()
   EndTran()
-  
+
   MsUnlockAll()
 
 

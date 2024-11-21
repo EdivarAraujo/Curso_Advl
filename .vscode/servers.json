@@ -15,13 +15,13 @@
 		"buildVersion": "7.00.240223P",
 		"secure": true,
 		"includes": [
-			"C:\\TOTVS12\\Protheus\\Protheus\\include"
+			"C:\\Totvs_Tijuca\\Includes"
 		],
 		"environments": [
 			"local"
 		],
 		"environment": "local",
-		"token": "djM6eGU1dDc0eXdvMm9tM2dqZ2dseTVjYjFodDZ0bW86MTpsb2NhbGhvc3Q6MTIzNToxOjcuMDAuMjQwMjIzUDoz:djE6bG9jYWw6YWRtaW46dkc2VXhOQ2xnWkp0aERySkpXZCtKTUMvb25jQUw2WmdPVVd6dlpSNHZkdz0=|djI6MTczMTY3Mjg3NzowOjE6MQ==.nDqIkmLJpgg+2mRWayugpw/ko7Ua/ewBYijOg9PsFh1gwpqcBZwCd3Wk7kTJbM0mD5H8ouUgEyzB65Bszlexp8QFp1GWtjmnE6IaYlYmQHnmEHRh1W8b2ORsP5xZjCairqp7U2pD7R5au4nzvP5u8tqxMPw/kLkf3mEa36YkLm3//b34iyL+JopFm2iBipB6/BL3AhdMabR71GiswwqgMNogymwdjTOAKk26DJgHwSkUk3A07qDTPqLGJ/hhv3OBFhbbXAKf7yT7br6FP5ow0p/cUnCz06zQtnm7YygDQOTKefuuhDK0J13lAvc9hu47iE20Mw5z5snXyznGM0zBsg==",
+		"token": "djM6eGU1dDc0eXdvMm9tM2dqZ2dseTVjYjFodDZ0bW86MTpsb2NhbGhvc3Q6MTIzNToxOjcuMDAuMjQwMjIzUDoz:djE6bG9jYWw6YWRtaW46TExITXBBTjFUOGthd290L1dZTStqZjZTU2xoZzBvUDhCejluRkxQNjhuOD0=|djI6MTczMjE1MDQyMjowOjE6MQ==.lNfKFKcMnsTBzO8Usdi+rhz6zOnqbHMwTcIx5euAoMD5swaFNdDdT593BjjrnHj8/K5gdpGnNbWB4R4RBJKUYA/0D1Bho/fLWYJhf6BhAbOdpZmw44NdUtr27/ay8sN+aSK87klKYeaRqqy2/uy7gfih5EcU1DLS5CR84RRjyU9ljqVCL4INLCpIn/fL8mELkYy3dGcBvb8KSbYi2rt0D+9UuOcKRj3hPyl4oMWgszOhPkRLLhxul1oUb46bE26T3jh59RDDgVdhzLwATg4cAeNjWBpKJNt7ah9QsdhAJryb7BxRn+a4M/wlc0uHn6acdkwO9vLL34bDbsv3FuDYWw==",
 		"informations": {
 			"permissions": [],
 			"errorMessage": "",
@@ -40,13 +40,13 @@
 			"buildVersion": "7.00.240223P",
 			"secure": true,
 			"includes": [
-				"C:\\TOTVS12\\Protheus\\Protheus\\include"
+				"C:\\Totvs_Tijuca\\Includes"
 			],
 			"environments": [
 				"local"
 			],
 			"environment": "local",
-			"token": "djM6eGU1dDc0eXdvMm9tM2dqZ2dseTVjYjFodDZ0bW86MTpsb2NhbGhvc3Q6MTIzNToxOjcuMDAuMjQwMjIzUDoz:djE6bG9jYWw6YWRtaW46dkc2VXhOQ2xnWkp0aERySkpXZCtKTUMvb25jQUw2WmdPVVd6dlpSNHZkdz0=|djI6MTczMTY3Mjg3NzowOjE6MQ==.nDqIkmLJpgg+2mRWayugpw/ko7Ua/ewBYijOg9PsFh1gwpqcBZwCd3Wk7kTJbM0mD5H8ouUgEyzB65Bszlexp8QFp1GWtjmnE6IaYlYmQHnmEHRh1W8b2ORsP5xZjCairqp7U2pD7R5au4nzvP5u8tqxMPw/kLkf3mEa36YkLm3//b34iyL+JopFm2iBipB6/BL3AhdMabR71GiswwqgMNogymwdjTOAKk26DJgHwSkUk3A07qDTPqLGJ/hhv3OBFhbbXAKf7yT7br6FP5ow0p/cUnCz06zQtnm7YygDQOTKefuuhDK0J13lAvc9hu47iE20Mw5z5snXyznGM0zBsg==",
+			"token": "djM6eGU1dDc0eXdvMm9tM2dqZ2dseTVjYjFodDZ0bW86MTpsb2NhbGhvc3Q6MTIzNToxOjcuMDAuMjQwMjIzUDoz:djE6bG9jYWw6YWRtaW46TExITXBBTjFUOGthd290L1dZTStqZjZTU2xoZzBvUDhCejluRkxQNjhuOD0=|djI6MTczMjE1MDQyMjowOjE6MQ==.lNfKFKcMnsTBzO8Usdi+rhz6zOnqbHMwTcIx5euAoMD5swaFNdDdT593BjjrnHj8/K5gdpGnNbWB4R4RBJKUYA/0D1Bho/fLWYJhf6BhAbOdpZmw44NdUtr27/ay8sN+aSK87klKYeaRqqy2/uy7gfih5EcU1DLS5CR84RRjyU9ljqVCL4INLCpIn/fL8mELkYy3dGcBvb8KSbYi2rt0D+9UuOcKRj3hPyl4oMWgszOhPkRLLhxul1oUb46bE26T3jh59RDDgVdhzLwATg4cAeNjWBpKJNt7ah9QsdhAJryb7BxRn+a4M/wlc0uHn6acdkwO9vLL34bDbsv3FuDYWw==",
 			"informations": {
 				"permissions": [],
 				"errorMessage": "",
@@ -68,7 +68,7 @@
 			"xe5t74ywo2om3gjggly5cb1ht6tmo:local",
 			{
 				"id": "xe5t74ywo2om3gjggly5cb1ht6tmo",
-				"token": "djM6eGU1dDc0eXdvMm9tM2dqZ2dseTVjYjFodDZ0bW86MTpsb2NhbGhvc3Q6MTIzNToxOjcuMDAuMjQwMjIzUDoz:djE6bG9jYWw6YWRtaW46dkc2VXhOQ2xnWkp0aERySkpXZCtKTUMvb25jQUw2WmdPVVd6dlpSNHZkdz0=|djI6MTczMTY3Mjg3NzowOjE6MQ==.nDqIkmLJpgg+2mRWayugpw/ko7Ua/ewBYijOg9PsFh1gwpqcBZwCd3Wk7kTJbM0mD5H8ouUgEyzB65Bszlexp8QFp1GWtjmnE6IaYlYmQHnmEHRh1W8b2ORsP5xZjCairqp7U2pD7R5au4nzvP5u8tqxMPw/kLkf3mEa36YkLm3//b34iyL+JopFm2iBipB6/BL3AhdMabR71GiswwqgMNogymwdjTOAKk26DJgHwSkUk3A07qDTPqLGJ/hhv3OBFhbbXAKf7yT7br6FP5ow0p/cUnCz06zQtnm7YygDQOTKefuuhDK0J13lAvc9hu47iE20Mw5z5snXyznGM0zBsg=="
+				"token": "djM6eGU1dDc0eXdvMm9tM2dqZ2dseTVjYjFodDZ0bW86MTpsb2NhbGhvc3Q6MTIzNToxOjcuMDAuMjQwMjIzUDoz:djE6bG9jYWw6YWRtaW46TExITXBBTjFUOGthd290L1dZTStqZjZTU2xoZzBvUDhCejluRkxQNjhuOD0=|djI6MTczMjE1MDQyMjowOjE6MQ==.lNfKFKcMnsTBzO8Usdi+rhz6zOnqbHMwTcIx5euAoMD5swaFNdDdT593BjjrnHj8/K5gdpGnNbWB4R4RBJKUYA/0D1Bho/fLWYJhf6BhAbOdpZmw44NdUtr27/ay8sN+aSK87klKYeaRqqy2/uy7gfih5EcU1DLS5CR84RRjyU9ljqVCL4INLCpIn/fL8mELkYy3dGcBvb8KSbYi2rt0D+9UuOcKRj3hPyl4oMWgszOhPkRLLhxul1oUb46bE26T3jh59RDDgVdhzLwATg4cAeNjWBpKJNt7ah9QsdhAJryb7BxRn+a4M/wlc0uHn6acdkwO9vLL34bDbsv3FuDYWw=="
 			}
 		]
 	],
