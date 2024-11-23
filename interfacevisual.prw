@@ -30,7 +30,7 @@ User Function IVisual()
     Return
   EndIf
 
-  MsgInfo("O CNPJ DIGITADO FOI:"+ cC GC)
+  MsgInfo("O CNPJ DIGITADO FOI:"+ cCGC)
 
 Return
 //*******************************************************************************
@@ -41,5 +41,5 @@ Static Function ACGC(cCGC)
     cCGC := "1111111111111"
     oDlg:Refresh()
   EndIf
-  
+
 Return

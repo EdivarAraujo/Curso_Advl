@@ -1,4 +1,5 @@
 {
   "totvsLanguageServer.welcomePage": false,
-  "advpl.workspaceFolders": "c:\\TOTVS12op\\workspace;"
+  "advpl.workspaceFolders": "c:\\TOTVS12op\\workspace;",
+  "advpl.debug_multiThread": false
 }
