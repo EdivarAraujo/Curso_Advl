@@ -21,7 +21,7 @@ User Function PBProc()
 
 	AADD( aSay, cDesc1 )
 	AADD( aSay, cDesc2 )
-    AADD( aSay, cDesc3 )	
+  AADD( aSay, cDesc3 )	
 	AADD( aButton, { 1, .T., {|| nOpc := 1, FechaBatch() }} )
 	AADD( aButton, { 2, .T., {|| FechaBatch() }} )
 	FormBatch( cTitulo, aSay, aButton )

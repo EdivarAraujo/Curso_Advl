@@ -15,7 +15,7 @@ User Function TESTAFUNC()
 	Local _lDESENV := .F.
   Local _n := 0
 
-	//Variáveis da tela
+	//Variaveis da tela
 	Private oDlgForm
 	Private oGrpForm
 	Private oGetForm
@@ -42,11 +42,11 @@ User Function TESTAFUNC()
 
 	//Criando a janela
 	DEFINE MSDIALOG oDlgForm TITLE "TESTAFUNC - Execução de Formulas" FROM 000, 000  TO nJanAltu, nJanLarg COLORS 0, 16777215 PIXEL
-	//Grupo Fórmula com o Get
+	//Grupo Formula com o Get
 	@ 003, 003  GROUP oGrpForm TO 30, (nJanLarg/2)-1        PROMPT "Formula: " OF oDlgForm COLOR 0, 16777215 PIXEL
 	@ 010, 006  MSGET oGetForm VAR cGetForm SIZE (nJanLarg/2)-9, 013 OF oDlgForm COLORS 0, 16777215 PIXEL
 
-	//Grupo Ações com o Botão
+	//Grupo acoes com o Botao
 	@ (nJanAltu/2)-30, 003 GROUP oGrpAco TO (nJanAltu/2)-3, (nJanLarg/2)-1 PROMPT "Acoes: " OF oDlgForm COLOR 0, 16777215 PIXEL
 	@ (nJanAltu/2)-24, nJanMeio - (nTamBtn/2) BUTTON oBtnExec PROMPT "Executar" SIZE nTamBtn, 018 OF oDlgForm ACTION(fExecuta()) PIXEL
 
@@ -58,7 +58,7 @@ Return
 
 /*---------------------------------------*
  | Func.: fExecuta                       |
- | Desc.: Executa a fórmula digitada     |
+ | Desc.: Executa a formula digitada     |
  *---------------------------------------*/
  
 Static Function fExecuta()
@@ -69,11 +69,11 @@ Static Function fExecuta()
     
     
     
-    //Se tiver conteúdo digitado
+    //Se tiver conteudo digitado
     If ! Empty(cFormula)
         oDlgForm:End()
         
-        //Inicio a utilização da tentativa
+        //Inicio a utilizacao da tentativa
         Begin Sequence
             &(cFormula)
         End Sequence
@@ -81,9 +81,9 @@ Static Function fExecuta()
         //Restaurando bloco de erro do sistema
         ErrorBlock(bError)
          
-        //Se houve erro, será mostrado ao usuário
+        //Se houve erro, ser� mostrado ao usuario
         If ! Empty(cError)
-            MsgStop("Houve um erro na fórmula digitada: "+CRLF+CRLF+cError, "Atenção")
+            MsgStop("Houve um erro na formula digitada: "+CRLF+CRLF+cError, "Atencao")
         else
             MsgInfo("Rotina executada com sucesso!", "Processo Finalizado")
         EndIf

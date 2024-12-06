@@ -16,7 +16,7 @@ USER FUNCTION PBMsA()
 RETURN
 
 //****************************
-STATIC FUNCTION RunProc(lEn d)
+STATIC FUNCTION RunProc(lEnd)
 	dbSelectArea("SX5")
 	dbSetOrder(1)
 	dbGoTop()

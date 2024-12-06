@@ -319,7 +319,7 @@ User Function CFGAT2Inc(cAlias,nReg,nOpcX)
 	aC:={}
 	// aC[n,1] = Nome da Variavel Ex.:"cCliente"
 	// aC[n,2] = Array com coordenadas do Get [x,y], em Windows estao em PIXEL
-	// aC[n,3] = Titulo do Campo
+	// aC[n,3] = Titulo do Campo  
 	// aC[n,4] = Picture
 	// aC[n,5] = Validacao
 	// aC[n,6] = F3
