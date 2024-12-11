@@ -4,7 +4,7 @@
 
 User Function StoreProc()
 	Local aRet := {}
-    Local i := 0
+  Local i := 0
     
 	RpcSetType(3)
 	PREPARE ENVIRONMENT EMPRESA "99" FILIAL "01" MODULO "FAT"
