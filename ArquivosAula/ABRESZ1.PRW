@@ -35,7 +35,7 @@ User Function ABRESZ1()
 
 	Private dData := Ctod("")
 
-	
+
 	dbSelectArea("SZ1")
 	dbSetOrder(1)
 
@@ -51,7 +51,7 @@ User Function ABRESZ1()
 	mBrowse( 6,1,22,75,cString,aCampos,cCampo)
 
 	If !Empty(cCampo) .And. !Empty(cString);//ENTER
-		.And. Len(aCampos) > 0
+			.And. Len(aCampos) > 0
 
 	EndIf
 

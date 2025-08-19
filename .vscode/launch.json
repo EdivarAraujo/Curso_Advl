@@ -4,84 +4,74 @@
 		{
 			"type": "totvs_language_web_debug",
 			"request": "launch",
-			"name": "Smart Client Web Debug",
+			"name": "TOTVS Language Debug REST",
+			"cwb": "${workspaceFolder}",
+			"program": "${command:AskForProgramName}",
+			"smartclientUrl": "http://localhost:5124/webapp/",
+			"programArguments": [],
+			"enableMultiThread": true,
+			"enableProfile": false,
+			"isMultiSession": true,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"openglMode": false,
+			"dpiMode": false,
+			"language": "1",
+			"ignoreFiles": true,
+			"enableTableSync": true
+		},
+		{
+			"type": "totvs_language_web_debug",
+			"request": "launch",
+			"name": "Smart Client Web Debug (Local)",
 			"program": "${command:AskForProgramName}",
 			"isMultiSession": true,
-			"enableTableSync": true
+			"enableTableSync": true,
+			"smartclientUrl": "http://localhost:5321/webapp/",
+			"enableMultiThread": true
 		},
 		{
 			"type": "totvs_language_debug",
 			"request": "launch",
-			"name": "TOTVS Language Debug",
+			"name": "Depuração do idioma TOTVS",
 			"program": "${command:AskForProgramName}",
 			"cwb": "${workspaceFolder}",
-			"smartclientBin": "../totvs/bin/smartclient/smartclient.exe",
+			"smartclientBin": "C:/TOTVS12op/Protheus/bin/smartclient/smartclient.exe",
 			"isMultiSession": true,
 			"enableTableSync": true,
 			"extendFeatures": {
 				"charDetails": false
-			}
-		},
-		{
-			"name": "Advpl WEB",
-			"type": "advpl",
-			"request": "launch",
-			"args": [],
-			"cwd": "",
-			"programRun": "${command:AskForProgramName}",
-			"stopOnEntry": false,
-			"enviromentInfo": "${command:GetEnvInfos}",
-			"workspace": "${workspaceFolder}/",
-			"webapp": true,
-			"webappUrl": "http://localhost:5321/webapp"
+			},
+			"programArguments": [],
+			"enableMultiThread": true,
+			"enableProfile": false,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"openglMode": false,
+			"dpiMode": false,
+			"olddpiMode": false,
+			"language": "",
+			"ignoreFiles": false
 		}
 	],
-	"lastProgramExecuted": "SIGAFAT",
-	"lastProgramArguments": [],
-	"webappPort": "5321",
 	"lastPrograms": [
 		{
-			"args": [],
-			"label": "U_TDialog"
+			"label": "SIGACTB"
+		},
+		{
+			"label": "SIGAMDI"
+		},
+		{
+			"label": "AAAA"
 		},
 		{
 			"args": [],
-			"label": "U_ABRESZ1"
+			"label": "U_startRest"
 		},
 		{
-			"args": [],
-			"label": "U_TESTAFUNC"
-		},
-		{
-			"label": "SIGAFAT"
-		},
-		{
-			"args": [],
-			"label": "U_SOFTL"
-		},
-		{
-			"args": [],
-			"label": "U_MANIPULACAO"
-		},
-		{
-			"args": [],
-			"label": "U_PARAMETRO"
-		},
-		{
-			"args": [],
-			"label": "U_TRANSACAO"
-		},
-		{
-			"args": [],
-			"label": "U_AQuery"
-		},
-		{
-			"args": [],
-			"label": "U_MPSmybind"
-		},
-		{
-			"args": [],
-			"label": "U_FWWxecteste"
+			"label": "XXXXX"
 		}
-	]
+	],
+	"lastProgramExecuted": "XXXXX",
+	"lastProgramArguments": []
 }

@@ -1,5 +1,6 @@
 {
   "totvsLanguageServer.welcomePage": false,
-  "advpl.workspaceFolders": "c:\\TOTVS12op\\workspace;",
-  "advpl.debug_multiThread": false
+  "advpl.debug_multiThread": false,
+  "totvsLanguageServer.editor.linter.includes": "C:\\TOTVS12op\\Protheus\\include",
+  "advpl.workspaceFolders": "c:\\TOTVS12op\\workspace;"
 }

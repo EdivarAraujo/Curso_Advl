@@ -1,0 +1,59 @@
+#include "tlpp-core.th"
+#include "tlpp-rest.th"
+#include "protheus.ch"
+#include "tbiconn.ch"
+#include "topconn.ch"
+
+@Get("/RestProdutos")
+user function GETRestProdutos()
+	local oJson       := JsonObject():New() as object
+	local aArea       := FwGetArea() as array
+	local cProduto	  := "" as character
+	local jPath 			as json
+
+	Conout("[RestProdutos] INICIO DA ROTINA")
+
+	oRest:setKeyHeaderResponse('Content-Type','application/json')
+
+	// --- Validacoes --- //
+
+	jPath := oRest:getQueryRequest()
+	if ( jPath <> Nil )
+		cProduto := jPath[ 'Produto' ]
+		if ( ValType(cProduto) == 'U' )
+			cProduto := ""
+		endif
+	endif
+
+	// --- Inicio do JSON --- //
+	oJson["retorno"]    := {}
+
+	// --- Inserindo Itens --- //
+
+	BeginSql Alias "SB1TEMP"
+		SELECT SB1.B1_FILIAL as filial, SB1.B1_COD as codigo, SB1.B1_DESC as descricao
+		FROM %Table:SB1% SB1
+		WHERE SB1.%NotDel%
+	EndSql
+			// AND SB1.B1_COD = %Exp:(cProduto)%
+	
+	SB1TEMP->(DbGoTop())
+	if !SB1TEMP->(Eof())
+		oItem := JsonObject():New()
+
+		oItem["filial"]     	:= AllTrim(SB1TEMP->filial)
+		oItem["codigo"]     	:= AllTrim(SB1TEMP->codigo)
+		oItem["descricao"]		:= AllTrim(SB1TEMP->descricao)
+
+		oJson["retorno"] = oItem
+		
+		conout("[RestProdutos] Retorno: " + oJson:toJSON())
+	endif
+
+	SB1TEMP->(DbCloseArea())
+
+	Conout("[RestProdutos] FIM DA ROTINA")
+	
+	FwrestArea(aArea)
+	oRest:setResponse(oJson:toJSON())
+return
